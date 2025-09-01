@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../constants";
-import profilepic from '../assets/myProfilePic.jpg';
 import {ArrowRight} from 'lucide-react';
 import TiltedCard from '../components/reactbits/TiltedCard'
 import { motion } from "motion/react"
@@ -140,7 +139,7 @@ const Hero = () => {
                       
                         { <TiltedCard
                          
-                            imageSrc={profilepic}
+                            imageSrc="/MyProfilePic.jpg"
                             altText="Full Stack Developer"
                             captionText="Full Stack Developer"
                             containerHeight="400px"
